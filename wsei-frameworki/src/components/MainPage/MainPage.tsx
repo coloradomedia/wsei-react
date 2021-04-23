@@ -5,7 +5,7 @@ import { TopBar } from "../TopBar/TopBar";
 import { LeftMenu } from "../LeftMenu/LeftMenu";
 
 const Content = styled.div`
-  max-width: 1200px;
+  max-width: 1920px;
 `
 
 export const MainPage: FC = () => {
