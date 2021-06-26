@@ -3,9 +3,13 @@ import styled from 'styled-components';
 
 import { TopBar } from "../TopBar/TopBar";
 import { LeftMenu } from "../LeftMenu/LeftMenu";
+import WelcomeSection from '../WelcomeSection/WelcomeSection';
 
 const Content = styled.div`
-  max-width: 1200px;
+  max-width: 1400px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 `
 
 export const MainPage: FC = () => {
@@ -14,7 +18,7 @@ export const MainPage: FC = () => {
       <TopBar />
       <Content>
         <LeftMenu />
-        <div>page content</div>
+        <WelcomeSection />
       </Content>
     </div>
   )

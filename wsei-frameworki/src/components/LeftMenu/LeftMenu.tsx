@@ -1,19 +1,21 @@
-import { FC } from 'React';
+import { FC } from 'react';
 import styled from 'styled-components';
+import Profile from './Profile';
 
 const LeftWrapper = styled.div`
   display: flex;
-  justify-content: left;
-  width: 300px;
-  height: 100vh;
-  box-shadow: 0 0 20px -5px rgba(0,0,0,0.5);
-  position: absolute;
+  justify-content: center;
+  width: 400px;
+  min-height: 100vh;
+  /* box-shadow: 0 0 20px -5px rgba(0,0,0,0.5); */
+  /* position: relative; */
 `
 
 export const LeftMenu: FC = () => {
   return (
     <LeftWrapper>
-      <div>LeftMenu</div>
+      <Profile/>
+      {/* <div>LeftMenu</div> */}
     </LeftWrapper>
   )
 }
